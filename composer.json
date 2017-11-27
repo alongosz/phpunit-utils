@@ -1,0 +1,23 @@
+{
+    "name": "alongosz/phpunit-utils",
+    "description": "PHPUnit Utils",
+    "type": "project",
+    "require": {
+        "symfony/console": "^3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Awl\\PHPUnitUtils\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Longosz",
+            "email": "andrzej@longosz.net"
+        }
+    ]
+}
